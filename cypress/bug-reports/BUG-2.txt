@@ -1,0 +1,15 @@
+Project: Lodgify Automation QA Test
+
+Issue Type: Bug
+ID: BUG-2
+Title/Description: Phone field validation doesn't appear when it's sent empty.
+Environment: QA.
+Severity: Medium.
+Priority: Medium.
+Steps to reproduce:
+1. Go to http://localhost:8080/contact.html
+2. Click on Send
+Expected results: "Phone is mandatory" should appear in the phone field.
+Actual results: No error appears in the phone field.
+Attachments: /cypress/screenshots/contact.test.js/Lodgify contact page -- Field validations should appear when the field is mandatory and is sent empty (failed).png
+Reporter: Romina
