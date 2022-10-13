@@ -1,0 +1,15 @@
+Project: Lodgify Automation QA Test
+
+Issue Type: Bug
+ID: BUG-1
+Title/Description: The yearly plan selecting 50 rentals displays an incorrect price for the Ultimate plan.
+Environment: QA.
+Severity: High.
+Priority: Medium.
+Steps to reproduce:
+1. Go to http://localhost:8080/pricing.html
+2. Select 50 number of rentals
+Expected results: Ultimate plan should display $525.
+Actual results: Ultimate plan displays $518.
+Attachments:/cypress/screenshots/pricing.test.js/Lodgify pricing page -- Yearly plan selecting 50 rentals -- Should display $525 for Ultimate plan (failed).png
+Reporter: Romina
